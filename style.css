@@ -1,0 +1,38 @@
+.Mbody{
+    font-size: x-large;
+    background-color: rgb(233, 230, 230);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.heading{
+    margin-right: -300px;
+    margin-top: -500px;
+}
+
+.calculator {
+    width: 300px;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+}

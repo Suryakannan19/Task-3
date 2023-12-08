@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://as1.ftcdn.net/v2/jpg/01/09/46/60/1000_F_109466043_Rq1BPnuVpdmcwbv5Yw2Yo4hyiYmb38oK.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Simple Calculator</title>
+</head>
+<body class="Mbody">
+    <h1 class="heading">My Calculator</h1>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons" onclick="calculate(event)">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>/</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>-</button>
+            <button>0</button>
+            <button>.</button>
+            <button>+</button>
+        </div>
+        <div class="buttons">
+        <button onclick="clearDisplay()">C</button>
+        <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
